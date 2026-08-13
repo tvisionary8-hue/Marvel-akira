@@ -1,0 +1,35 @@
+/* Marvel: A.K.I.R.A - Estilos principais */
+
+.marvel-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)),
+                url('https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=2070') center/cover no-repeat fixed;
+}
+
+.search-glow:focus {
+    box-shadow: 0 0 0 3px rgba(237, 29, 36, 0.45), 0 0 30px rgba(0, 114, 206, 0.25);
+    border-color: #ed1d24 !important;
+}
+
+/* Cards de conteúdo */
+.content-card {
+    background: rgba(17, 24, 39, 0.92);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Títulos de página */
+.page-title {
+    @apply text-3xl md:text-4xl font-black uppercase tracking-tighter text-center;
+}
+
+.page-subtitle {
+    @apply text-center font-mono opacity-60 text-sm md:text-base mb-8;
+}
+
+/* Separadores temáticos */
+.marvel-divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ed1d24, transparent);
+    margin: 2rem 0;
+}
